@@ -3,7 +3,7 @@ node_js:
   - "node"
 before_install:
   - npm install -g yarn
-  - npm install --global gulp-cli
+  - npm install gulp
 install:
   - yarn
 script:
